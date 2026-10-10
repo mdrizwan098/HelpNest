@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>HelpNest – Technology help, made simple</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+
+<div class="shell">
+
+  <header class="top">
+
+    <div class="logo" id="logo"></div>
+
+    <div class="brand"><b>HelpNest</b><span>Technology help, made simple.</span></div>
+
+    <div class="pill">Technicians online</div><button class="bell" id="bell" aria-label="Notifications"></button>
+
+  </header>
+
+  <div class="notes hide" id="notes"></div>
+
+  <div class="call hide" id="call" role="dialog" aria-label="Video call"><div class="rem"><div class="av">P</div><b>Priya · HelpNest technician</b><span id="cst">Connecting…</span></div><video id="me" autoplay muted playsinline></video><div class="ctl"><button id="mic">Mute</button><button id="cmr">Camera off</button><button id="end" class="endb">End call</button></div></div>
+
+  <main id="app"></main>
+
+</div>
+
+<script src="js/fixes.js" defer></script>
+<script src="js/support.js" defer></script>
+<script src="js/app.js" defer></script>
+
+</body>
+
+</html>
